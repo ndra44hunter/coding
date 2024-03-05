@@ -1,4 +1,4 @@
-# memanggil atau membangkitkan bilangan random integer
+# memanggil/membangkitkan bilangan random integer
 from random import randint as rnd
 
 
