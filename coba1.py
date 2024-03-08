@@ -55,3 +55,7 @@ for i in range(1,5):
     print(comb("ndr", i))
     print()
     print()
+    
+# https://www.youtube.com/shorts/Hpo7fBeNZeY
+# https://www.youtube.com/shorts/kREXJdsUOq8
+# https://www.youtube.com/shorts/MsSbkho7FKU
