@@ -1,5 +1,6 @@
 # import dependencies
 import math
+import sys
 
 """ fungsi kombinasi string """
 def rules(cntr,string,dummy):
@@ -43,15 +44,21 @@ def combinations(times,string):
     
     return arr
   
+isLanjut=False
 
-hasil = combinations(3,"ndr")
-print()
-print("hasil")
-for x in hasil:
+string=input("masukkan string ")
+while not isLanjut:
+    try:
+        times=int(input("masukkan pangkat "))
+        isLanjut=True
+    except ValueError:
+        print("please input number...")
+        
+print("Hasil\n")
+for x in combinations(times,string):
     print(x)
-
+    
 print()
-
 
 
 # schematics
